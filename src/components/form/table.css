@@ -1,0 +1,54 @@
+.app__table{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.02);
+    
+    border:1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 7px;
+    
+    border-spacing: unset;
+}
+
+.app__table td {
+    padding: 0.5rem 1rem;
+
+    /* font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    
+    color: #B6B6B6; */
+}
+
+.app__table thead td{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 19px;
+    
+    color: white;
+}
+
+.app__table tbody td{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #B6B6B6;
+
+    border-top:  1px solid rgba(255, 255, 255, 0.05);
+
+}
+
+.app__table tbody td img{
+    width: 30px;
+}
+
+.app__table tbody tr:hover{
+    background-color: var(--color-violet);
+    color: white;
+    
+}

@@ -1,0 +1,173 @@
+.app__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem 6rem;
+}
+
+.app__navbar-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__navbar-logo img{
+    width: 220px;
+}
+
+.app__navbar-links{
+
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__navbar-links li{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--font-lightTitle);
+
+    list-style: none;
+    cursor: pointer;
+
+    margin: 0 1rem;
+}
+
+.app__navbar-links .active{
+    color: var(--color-green);
+    text-decoration: none;
+}
+
+.app__navbar-links .notActive{
+    color: var(--font-lightTitle);
+    text-decoration: none;
+}
+
+.app__navbar-links .notActive:hover{
+    color: var(--color-green); 
+}
+
+.app__navbar-links li:hover{
+    color: var(--color-green);
+}
+
+.app__navbar-login{
+    width: 220px;
+    display: flex;
+    justify-content: end;
+}
+
+.app__navbar-menu{
+    display: none;
+}
+
+.app__navbar-menu svg{
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.app__navbar-menu_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+
+    background-color: var(--color-background);
+    
+    position: absolute;
+    padding: 2rem;
+    right: 0;
+    top: 40px;
+    margin:2rem ;
+    min-width: 250px;
+    border-radius: 5px;
+}
+
+.app__navbar-menu_container-links{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.app__navbar-menu_container-links li{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--font-lightTitle);
+    margin: 1rem 0;
+
+    cursor: pointer;
+}
+
+
+.app__navbar-menu_container-links li:hover{
+    color: var(--color-green);
+}
+
+.app__navbar-menu_container-links hr{
+    height: 1px;
+    background-color: var(--font-lightSubtitle);
+    border: none;
+    opacity: 0.3;
+}
+
+.app__navbar-menu_container-login{
+    width: 100%;
+}
+
+.app__navbar-menu_container-login .app__btn{
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.app__navbar-menu_container-login .app__btn button{
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px){
+    .app__navbar-links{
+        display: none;
+    }
+
+    .app__navbar-login{
+        display: none;
+    }
+
+    .app__navbar-menu{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app__navbar {
+        width: 100%;
+        padding: 1rem 4rem ;
+    }
+    .app__navbar-logo img{
+       width: 180px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .app__navbar{
+        padding: 1rem 1.5rem;
+    }
+    .app__navbar-menu svg{
+        font-size: 23px;
+    }
+}
+
+
+
+
+

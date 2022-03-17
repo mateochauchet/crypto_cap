@@ -1,0 +1,26 @@
+.coins__coinsList{
+    padding: 6rem 4rem;
+}
+
+.coins__coinsList-numPage{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5rem 5rem;
+}
+
+.coins__coinsList-numPage p{
+    color: var(--color-green);
+    cursor: pointer;
+}
+
+.coins__coinsList-numPage p:hover{
+    text-decoration:underline;
+}
+
+.coins__coinsList-numPage p{
+    display: flex;
+    justify-content: flex-end;
+
+    
+}

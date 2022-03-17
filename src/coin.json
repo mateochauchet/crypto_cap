@@ -1,0 +1,69 @@
+{
+    "id": "solana",
+    "symbol": "sol",
+    "name": "Solana",
+
+
+
+    "links": {
+        "homepage": [
+          "https://solana.com/",
+          "",
+          ""
+        ],
+        "blockchain_site": [
+          "https://explorer.solana.com/",
+          "https://solscan.io/",
+          "https://solanabeach.io/",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "official_forum_url": [
+          "https://docs.solana.com/",
+          "",
+          ""
+        ],
+        "chat_url": [
+          "https://discordapp.com/invite/pquxPsq",
+          "",
+          ""
+        ],
+        "announcement_url": [
+          "https://medium.com/solana-labs",
+          "https://forums.solana.com/"
+        ],
+        "twitter_screen_name": "solana",
+        "facebook_username": "",
+        "bitcointalk_thread_identifier": null,
+        "telegram_channel_identifier": "solana",
+        "subreddit_url": "https://www.reddit.com/r/solana",
+        "repos_url": {
+          "github": [
+            "https://github.com/solana-labs/solana"
+          ],
+          "bitbucket": []
+        }
+    },
+
+
+
+    "image": {
+        "thumb": "https://assets.coingecko.com/coins/images/4128/thumb/solana.png?1640133422",
+        "small": "https://assets.coingecko.com/coins/images/4128/small/solana.png?1640133422",
+        "large": "https://assets.coingecko.com/coins/images/4128/large/solana.png?1640133422"
+    },
+
+    "market_cap_rank": 8,
+    "coingecko_rank": 4,
+    "coingecko_score": 67.314,
+    "developer_score": 89.346,
+    "community_score": 50.529,
+    "liquidity_score": 81.422,
+    "public_interest_score": 0
+
+}

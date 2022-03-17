@@ -1,0 +1,19 @@
+.app__coinRow-name{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    
+}
+
+.app__coinRow-name p{
+    margin: 0 1rem;
+    
+}
+
+.app__coinRow-name hr{
+    height: 23px;
+    background-color: rgba(255, 255, 255, 0.05);
+    opacity: 0.3;
+    margin-right: 0.5rem;
+}

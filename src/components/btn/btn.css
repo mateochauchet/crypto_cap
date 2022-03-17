@@ -1,0 +1,22 @@
+.app__btn{
+    
+}
+
+.app__btn button {
+    background-color: var(--color-green);
+    padding: 0.6rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+
+    color: var(--font-pureWhite);
+    
+    font-size: 16px;
+    line-height: 24px;
+
+    cursor: pointer;
+
+}
+
+.app__btn button:hover{
+    opacity: 0.9;
+}

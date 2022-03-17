@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Raleway:wght@500&family=Roboto&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+:root {
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+
+    --font-cmc:'Inter';
+    
+    --color-green: #0FAE96;
+    --color-violet: #511281;
+    --color-grey: #808080;
+
+    --color-background: rgba(17, 1, 30, 1);
+
+    
+    --font-pureWhite:#FFFFFF;
+    --font-lightTitle:#ECF1F0;
+    --font-lightSubtitle: #B6B6B6;
+    --font-blackTitle:#2B2B2B;
+
+    --up-color: #16c784;
+    --down-color: #ea3943;
+
+
+  }
+
+
+  
+
+
+  

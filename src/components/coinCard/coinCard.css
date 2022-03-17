@@ -1,0 +1,114 @@
+.app__coinCard{
+    display: flex;
+    flex-direction: column;
+
+    background: rgba(255, 255, 255, 0.02);
+
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    border-radius: 18px;
+    width: 340px;
+    min-width: 260px;
+    padding: 1rem 1rem;
+    margin: 0.5rem;
+    
+}
+
+.app__coinCard-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.app__coinCard-top_info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.app__coinCard-top_info img{
+    width: 50px;
+}
+
+.app__coinCard-top_info h3{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: var(--font-lightTitle);
+
+    margin: 0 1rem;
+}
+
+.app__coinCard-top_info-name{
+    border-radius: 4px;
+    padding: 4px 6px;;
+    
+    background: #C6C6C6;
+    
+}
+
+.app__coinCard-top_info-name p{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #1D1429;
+}
+
+.app__coinCard-top_arrow{
+    width: 34px;
+    height: 34px;
+    background-color: #2C223B;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__coinCard-top_arrow svg{
+   color: #C6C6C6;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+
+.app__coinCard hr{
+    margin: 1rem 0;
+
+    background: #ECF1F0;
+    opacity: 0.05;
+}
+
+.app__coinCard-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.app__coinCard-bottom_price{
+    display: flex;
+    flex-direction: column;
+}
+
+.app__coinCard-bottom_price h2{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ECF1F0;
+
+    margin-bottom: 0.6rem 0;
+}
+
+.app__coinCard-bottom_price p{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    font-feature-settings: 'salt' on, 'liga' off;
+
+    color: #B6B6B6;
+}

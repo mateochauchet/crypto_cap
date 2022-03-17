@@ -1,0 +1,16 @@
+.app__UpDownPill{
+    display: flex;
+    align-items: center;
+
+    border-radius: 8px;
+
+    padding:5px 10px;
+    padding-right: 12px;
+
+    width: fit-content;
+}
+
+.app__UpDownPill{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}

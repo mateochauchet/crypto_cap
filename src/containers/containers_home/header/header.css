@@ -1,0 +1,66 @@
+.home__header{
+    padding: 5rem 4rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__header-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.home__header-heading h1{
+
+}
+
+.home__header-heading p{
+    margin: 2rem 0;
+    max-width: 500px;
+    text-align: center;
+}
+
+.home__header-heading button{
+    width: 170px;
+    padding: 0.8rem 0 ;
+}
+
+.home__header-container{
+    padding: 2rem 0;
+}
+.home__header-container h2{
+    margin: 1rem 0.5rem;
+}
+
+.home__header-container .app__coinCard-bottom_price h2{
+    margin: 1rem 0;
+}
+
+.home__header-container_cards{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+@media screen and (max-width: 700px) {
+    .home__header-heading h1{
+        font-size: 30px;
+    }
+
+    .home__header-heading p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .home__header{
+        padding:3rem 2rem ;
+    }
+}

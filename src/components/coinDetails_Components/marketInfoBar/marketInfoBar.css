@@ -1,0 +1,67 @@
+.app__marketBar{
+    padding: 1rem 0;
+    
+    
+}
+
+.app__marketBar hr {
+    opacity: 0.1;
+}
+
+.app__marketBar-bar{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    
+}
+
+.app__marketBar-bar hr{
+    margin: 0 1rem;
+    /* visibility: hidden; */
+    height: 120px;
+    width: 1px;
+}
+
+.app__marketBar-bar h4{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    color: var(--font-lightSubtitle);
+
+    margin-bottom: 1rem;
+}
+
+.app__marketBar-bar p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    
+}
+
+.app__marketBar-bar .porcentage_change{
+    color: var(--up-color);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.app__marketBar-bar span {
+    display: flex;
+    align-items:center;
+}
+
+.app__marketBar-bar span h4{
+    margin-bottom: 0;
+    margin-right: 1rem;
+}
+
+.app__marketBar-bar span p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.margin__top{
+    margin-top: 2rem;
+}
+
