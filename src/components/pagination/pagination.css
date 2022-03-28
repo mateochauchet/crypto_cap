@@ -1,0 +1,22 @@
+.app__pagination{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 1.5rem 5rem;
+}
+
+.app__pagination p{
+    color: var(--color-green);
+    cursor: pointer;
+}
+
+.app__pagination p:hover{
+    text-decoration:underline;
+}
+
+.app__pagination p{
+    display: flex;
+    justify-content: flex-end;
+
+    
+}

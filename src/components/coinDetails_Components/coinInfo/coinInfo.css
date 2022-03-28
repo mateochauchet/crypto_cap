@@ -1,0 +1,64 @@
+.app__coinInfo{
+    padding: 1rem;
+    font-family: var(--font-cmc);
+    border-radius: 12px;
+    height: fit-content;
+
+}
+
+.app__coinInfo h2{
+  
+}
+
+.app__coinInfo-content{
+    display: flex;
+    align-items: center;
+    min-height: 30px;
+    
+    /* margin-top: 0.5rem; */
+}
+
+.app__coinInfo-content_title {
+    margin-right: 1rem;
+    min-width: 100px;
+}
+
+.app__coinInfo-content_links{
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+
+.app__coinInfo-content_links span {
+    display: flex;
+    align-items: center;
+    background-color: #EFF2F5;
+    color: var(--color-violet);
+    
+    border-radius: 5px;
+
+    padding: 5px 8px;
+    margin:  0.3rem 0.1rem;
+}
+
+.app__coinInfo-content_links span img{
+    width: 20px;
+}
+
+.app__coinInfo-content_links span svg{
+    margin-right: 2px;
+}
+
+.app__coinInfo-content_links span a{
+    text-decoration: none;
+    color: var(--color-violet);
+
+    display: flex;
+    align-items: center;
+}
+
+.app__coinInfo-content_links span a:hover {
+    color: var(--color-green);
+}
+

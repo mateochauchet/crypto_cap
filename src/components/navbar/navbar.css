@@ -78,7 +78,10 @@
     justify-content: end;
     align-items: flex-start;
 
+    z-index: 5;
+
     background-color: var(--color-background);
+
     
     position: absolute;
     padding: 2rem;
@@ -109,8 +112,11 @@
     cursor: pointer;
 }
 
+.app__navbar-menu_container-links .active{
+    color: var(--color-green);
+}
 
-.app__navbar-menu_container-links li:hover{
+.app__navbar-menu_container-links .notActive:hover {
     color: var(--color-green);
 }
 

@@ -7,7 +7,7 @@
     border: 2px solid rgba(255, 255, 255, 0.05);
     border-radius: 18px;
     width: 340px;
-    min-width: 260px;
+    min-width: 270px;
     padding: 1rem 1rem;
     margin: 0.5rem;
     
@@ -42,7 +42,7 @@
 
 .app__coinCard-top_info-name{
     border-radius: 4px;
-    padding: 4px 6px;;
+    padding: 4px 6px;
     
     background: #C6C6C6;
     
@@ -111,4 +111,59 @@
     font-feature-settings: 'salt' on, 'liga' off;
 
     color: #B6B6B6;
+}
+
+@media screen and (max-width: 550px) {
+
+    .app__coinCard{
+        width: 250px;
+        padding-bottom: 10px;
+    }
+
+    .app__coinCard-top_info img{
+        width: 40px;
+    }
+    
+    .app__coinCard-top_info h3{
+        font-size: 16px;
+        margin: 0 0.7rem;
+    }
+
+    .app__coinCard-top_info div{
+        padding: 0.2rem;
+    }
+
+    .app__coinCard-top_info div p{
+        font-size: 9px;
+    }
+
+    .app__coinCard-top_arrow{
+        width: 28px;
+        height: 28px;
+    }
+
+    .app__coinCard-top_arrow svg{
+        font-size: 16px;
+    }
+
+    .app__coinCard hr{
+        margin-bottom:0 ;
+    }
+
+
+    .app__coinCard-bottom_price h2{
+        font-size: 18px;
+        margin:   0;
+        
+    }
+
+    .app__coinCard-bottom_price p{
+        font-size: 14px;
+    }
+
+    .app__coinCard-bottom img{
+        margin-top: 22px;
+    }
+
+
 }

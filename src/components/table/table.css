@@ -27,6 +27,9 @@
     font-size: 17px;
     line-height: 19px;
     
+    padding-top: 1rem ;
+    padding-bottom: 1rem;
+
     color: white;
 }
 
@@ -47,8 +50,41 @@
     width: 30px;
 }
 
+.app__table tbody span {
+    display: flex;
+    align-items: center;
+}
+
+.app__table tbody span svg{
+    font-size: 13px;
+    margin-right: 0.2rem;
+}
+
 .app__table tbody tr:hover{
     background-color: var(--color-violet);
     color: white;
     
+}
+
+@media screen and (max-width: 750px){
+    .app__table thead td{
+        font-size: 14px;
+        padding-top: 0.6rem;
+        padding-bottom: 0.6rem;
+    }
+
+    .app__table tbody td{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 550px){
+    .app__table tbody td{
+        font-size: 13px;
+    }
+
+    .app__table tbody td img {
+        width: 22px;
+    }
 }

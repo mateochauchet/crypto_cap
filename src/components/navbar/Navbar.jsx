@@ -20,8 +20,7 @@ const Navbar = () => {
                <li><NavLink className={navLinkDecoration}  to='/'>Home</NavLink></li>
                <li><NavLink className={navLinkDecoration} to='/cryptocurrencies' >Cryptocurrencies</NavLink></li>
                <li><NavLink className={navLinkDecoration} to='/exchanges' >Exchanges</NavLink></li>
-               <li>Market</li>
-               <li>Learn</li>
+               <li><NavLink className={navLinkDecoration} to='/news' >News</NavLink></li>
            </ul>
            <div className="app__navbar-login">
                 <Btn text='Login' />
@@ -32,15 +31,13 @@ const Navbar = () => {
                     <div className="app__navbar-menu_container">
                         
                         <ul className='app__navbar-menu_container-links' >
-                            <li>Home</li>
+                            <li><NavLink className={navLinkDecoration}  to='/'>Home</NavLink></li>
                             <hr/>
-                            <li>Cryptocurrencies</li>
+                            <li><NavLink className={navLinkDecoration} to='/cryptocurrencies' >Cryptocurrencies</NavLink></li>
                             <hr/>
-                            <li>trade</li>
+                            <li><NavLink className={navLinkDecoration} to='/exchanges' >Exchanges</NavLink></li>
                             <hr/>
-                            <li>Market</li>
-                            <hr/>
-                            <li>Learn</li>
+                            <li><NavLink className={navLinkDecoration} to='/news' >News</NavLink></li>
                             <hr/>
                         </ul>
                     

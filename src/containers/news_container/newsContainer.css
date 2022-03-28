@@ -1,0 +1,17 @@
+.news__newsContainer{
+    padding: 2rem 5rem;
+}
+
+.news__newsContainer h1{
+    font-size: 40px;
+
+    padding: 4rem 6rem;
+}
+
+.news__newsContainer-container{
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}

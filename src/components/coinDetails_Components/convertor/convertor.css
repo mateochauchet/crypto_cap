@@ -1,0 +1,56 @@
+.app__convertor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    /* border-radius: 18px; */
+    opacity: 0.85;
+    
+    margin: 5rem 0;
+    margin-bottom: 0;
+}
+
+.app__convertor div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    width: 50%;
+    padding: 1rem 0.5rem;
+    
+    color:rgb(255, 255, 255, 0.9) ;
+}
+
+.app__convertor div img{
+    
+    margin-right: 1rem;
+}
+
+.app__convertor div input{
+    width: 100%;
+    height: 100%;
+    text-align: end;
+    border:none;
+
+    font-size: 25px;
+    /* background-color: #EFF2F5; */
+    background-color: rgb(255, 255, 255, 0.0);
+}
+
+.app__convertor hr{
+    height: 90px;
+}
+
+.app__convertor-left img{
+    width: 75px;
+}
+
+.app__convertor-right img{
+   width: 78px;
+    
+}
+
+
+

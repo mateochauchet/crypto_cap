@@ -46,7 +46,77 @@
     justify-content: space-between;
     overflow-x: auto;
     overflow-y: hidden;
+
+    
+    
 }
+
+
+
+
+
+.home__header-container_cards::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+    background-color: rgb(255, 255, 255, 0.02);
+}
+
+.home__header-container_cards::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 255, 255, 0.2);
+}
+
+/* Animations */
+/* ----- ---------------*/
+/* 
+
+.home__header-container_cards .app__coinCard {
+    transition: transform 5s;
+}
+.home__header-container_cards .app__coinCard{
+    transform: translateX(500%,-500%);
+} */
+
+.cards1{
+    display: flex;
+    
+    animation: animate 60s linear infinite;
+    
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateX(100%);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+
+
+.cards2:nth-child(2){
+    display: flex;
+    
+    animation: animate2 60s linear infinite;
+    animation-delay: -30s;
+}
+
+@keyframes animate2 
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(-200%);
+    }
+}
+
+
+
 
 @media screen and (max-width: 700px) {
     .home__header-heading h1{

@@ -1,3 +1,54 @@
 .exchanges__exchangesList{
     padding: 6rem 4rem;
 }
+
+
+/* exchange FILTERS */
+/* ------------------------------------------- */
+
+.exchanges__exchangesList-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exchanges__exchangesList-filters_left{
+}
+
+.exchanges__exchangesList-filters_left button{
+    background-color: rgb(250, 250, 250, 0.15);
+    border: none;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    opacity: 0.8;
+
+    color: var(--font-subtitle);
+
+
+    padding: 8px 12px ;
+    margin-right: 0.5rem;
+    
+}
+
+.exchanges__exchangesList-filters button:hover{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.exchanges__exchangesList-filters_right{
+    display: flex;
+}
+
+.exchanges__exchangesList-filters_right select{
+    color: var(--font-lightSubtitle);
+    font-weight:700;
+    font-size: 14px;
+    background-color: rgb(250, 250, 250, 0.15) ;
+    border: none;
+    border-radius: 5px;
+
+    margin-left: 1rem;
+    padding: 3px;
+}

@@ -1,0 +1,86 @@
+.app__newsCard {
+    display: flex;
+    flex-direction: column;
+    
+
+    border-radius: 18px;
+    /* background-color: var(--color-card);*/
+    border: 1px solid rgba(255, 255, 255, 0.09); 
+    background-color: rgba(255, 255, 255, 0.04);
+
+    
+    max-width: 300px;
+    margin: 2rem 0.5rem;
+    
+    transition: transform .1s;
+
+    box-shadow: 0 4px 8px 0 
+    rgba(0, 0, 0, 0.02), 0 6px  20px 0
+    rgba(0, 0, 0, 0.19);
+}
+
+.app__newsCard:hover{
+    transform: scale(1.01);
+    
+    box-shadow: 0 4px 8px 0 
+    rgba(0, 0, 0, 0.02), 0 6px  20px 0
+    rgba(0, 0, 0, 0.39);
+
+    background-color:rgba(255, 255, 255, 0.05);
+    
+}
+
+.app__newsCard img{
+    width: 100%;
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.app__newsCard-content{
+    padding: 1rem 1.5rem;
+}
+
+.app__newsCard-content h3{
+    font-size: 18px;
+    margin-bottom: 1rem;
+
+    font-weight: 600;
+    line-height: 25px;
+    
+}
+
+.app__newsCard-content p{
+    font-size: 14px;
+    /* color: var(--font-lightSubtitle); */
+    color: white;
+    opacity: 0.8;
+    font-family: 'Roboto';
+}
+
+.app__newsCard-footer{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+
+    font-family: 'Roboto';
+    font-size: 11px;
+
+    padding: 0.2rem  1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.app__newsCard-footer p{
+    opacity: 0.4;
+}
+
+.app__newsCard-footer span{
+    display: flex;
+    align-items: center;
+
+}
+
+.app__newsCard-footer span img{
+    width:20px;
+    margin-right: 0.5rem;
+}
