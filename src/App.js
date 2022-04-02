@@ -14,11 +14,11 @@ function App() {
         <Navbar/>
         
         <Routes>
-          <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/cryptocurrencies" element={<Cryptocurrencies/>}/>
-          <Route exact path="/exchanges" element={<Exchanges/>} />
-          <Route exact path="/cryptocurrencies/:id" element={<CoinDetails/>} />
-          <Route exact path="/news" element={<News/>} />
+          <Route exact path="/crypto_cap" element={<Home/>}/>
+          <Route exact path="/crypto_cap/cryptocurrencies" element={<Cryptocurrencies/>}/>
+          <Route exact path="/crypto_cap/exchanges" element={<Exchanges/>} />
+          <Route exact path="/crypto_cap/cryptocurrencies/:id" element={<CoinDetails/>} />
+          <Route exact path="/crypto_cap/news" element={<News/>} />
         </Routes>
         
         <Footer/>

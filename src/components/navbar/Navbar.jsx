@@ -17,10 +17,10 @@ const Navbar = () => {
                <img src={Logo} alt="logo"/>
            </div>
            <ul className="app__navbar-links">
-               <li><NavLink className={navLinkDecoration}  to='/'>Home</NavLink></li>
-               <li><NavLink className={navLinkDecoration} to='/cryptocurrencies' >Cryptocurrencies</NavLink></li>
-               <li><NavLink className={navLinkDecoration} to='/exchanges' >Exchanges</NavLink></li>
-               <li><NavLink className={navLinkDecoration} to='/news' >News</NavLink></li>
+               <li><NavLink className={navLinkDecoration}  to='/crypto_cap/'>Home</NavLink></li>
+               <li><NavLink className={navLinkDecoration} to='/crypto_cap/cryptocurrencies' >Cryptocurrencies</NavLink></li>
+               <li><NavLink className={navLinkDecoration} to='/crypto_cap/exchanges' >Exchanges</NavLink></li>
+               <li><NavLink className={navLinkDecoration} to='/crypto_cap/news' >News</NavLink></li>
            </ul>
            <div className="app__navbar-login">
                 <Btn text='Login' />
