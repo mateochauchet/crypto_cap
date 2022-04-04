@@ -20,7 +20,7 @@ const CoinRow = ({coin={}}) => {
         <tr className='app__coinRow'>
             <td>{coin.market_cap_rank}</td>
 
-            <NavLink to={`/cryptocurrencies/${coin.id}`}>
+            <NavLink to={`/crypto_cap/cryptocurrencies/${coin.id}`}>
                 <td className='app__coinRow-name' >
                     <img src={coin.image} alt={coin.name}/> 
                     <p>{coin.name}</p>

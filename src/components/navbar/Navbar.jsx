@@ -31,13 +31,13 @@ const Navbar = () => {
                     <div className="app__navbar-menu_container">
                         
                         <ul className='app__navbar-menu_container-links' >
-                            <li><NavLink className={navLinkDecoration}  to='/'>Home</NavLink></li>
+                            <li><NavLink className={navLinkDecoration}  to='/crypto_cap'>Home</NavLink></li>
                             <hr/>
-                            <li><NavLink className={navLinkDecoration} to='/cryptocurrencies' >Cryptocurrencies</NavLink></li>
+                            <li><NavLink className={navLinkDecoration} to='/crypto_cap/cryptocurrencies' >Cryptocurrencies</NavLink></li>
                             <hr/>
-                            <li><NavLink className={navLinkDecoration} to='/exchanges' >Exchanges</NavLink></li>
+                            <li><NavLink className={navLinkDecoration} to='/crypto_cap/exchanges' >Exchanges</NavLink></li>
                             <hr/>
-                            <li><NavLink className={navLinkDecoration} to='/news' >News</NavLink></li>
+                            <li><NavLink className={navLinkDecoration} to='/crypto_cap/news' >News</NavLink></li>
                             <hr/>
                         </ul>
                     

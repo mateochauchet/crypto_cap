@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className="app__footer-title">
                     <span>
                         <img src={logo} alt="logo"/>
-                        <p>CryptoCap provides a fundamental analysis of the crypto market. In addition to tracking price, volume and market capitalisation, CoinGecko tracks community growth, open-source code development, major events and on-chain metrics.</p>
+                        <p className='text' >CryptoCap provides a fundamental analysis of the crypto market. In addition to tracking price, volume and market capitalisation, CryptoCap tracks community growth, open-source code development, major events and on-chain metrics.</p>
                     </span>
                     <span>
                         <p></p>

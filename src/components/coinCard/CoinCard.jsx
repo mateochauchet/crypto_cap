@@ -31,7 +31,7 @@ const CoinCard = ({coin}) => {
     return (
         <div className="app__coinCard">
             <div className="app__coinCard-top">
-                <NavLink to={`/cryptocurrencies/${coin.id}`} >
+                <NavLink to={`/crypto_cap/cryptocurrencies/${coin.id}`} >
                     <div className="app__coinCard-top_info">
                         <img src={coin.image} alt="bitcoin"/>
                         <h3>{coin.symbol.toUpperCase()}</h3>

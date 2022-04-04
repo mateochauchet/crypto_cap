@@ -21,6 +21,7 @@ const CoinsList = ({coins,pages,setCategory,setNum}) => {
     let options = isLoading? 'Loading...' : data.map(c => ({ value: c.category_id, label:c.name }));
 
     let options2 = [
+        {value:'ethereum-ecosystem', label:"Ethereum Ecosystem"},
         {value:'dot-ecosystem', label:"Polkadot Ecosystem"},
         {value:'binance-smart-chain', label:"BNB chain Ecosystem"},
         {value:'polygon-ecosystem', label:"Polygon Ecosystem"},
@@ -66,7 +67,7 @@ const CoinsList = ({coins,pages,setCategory,setNum}) => {
 
       };
     
-   
+      
 
     return (
         <div className='coins__coinsList'>
@@ -80,9 +81,9 @@ const CoinsList = ({coins,pages,setCategory,setNum}) => {
                     <div className="coins__coinsList-filters_left">
                         <button onClick={()=>setCategory(undefined) }>All</button>
                         <button onClick={()=>setCategory("category=decentralized-finance-defi") } >DeFi</button>
-                        <button>NFT</button>
-                        <button>Metaverse</button>
-                        <button>Blockchains</button>
+                        <button onClick={()=>setCategory("category=non-fungible-tokens-nft") } >NFT</button>
+                        <button onClick={()=>setCategory("category=metaverse") } >Metaverse</button>
+                        <button onClick={()=>setCategory("category=smart-contract-platform") } >Blockchains</button>
                         <span>
                         <Select placeholder='Ecosistems' options={options2}  styles={selectStyles} onChange={(e)=>setCategory(`category=${e.value}`)} />
                         </span>

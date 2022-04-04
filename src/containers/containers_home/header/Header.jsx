@@ -9,7 +9,7 @@ const Header = ({coins}) => {
             <div className="home__header-heading">
                 <h1 className='title'>Start and Build Your Crypto Portfolio Here</h1>
                 <p className='subTitle'>Only at CryptoCap, you can build a good portfolio and learn best practices about cryptocurrency.</p>
-                <NavLink to='/cryptocurrencies' ><Btn text='Get Started' /></NavLink>
+                <NavLink to='/crypto_cap/cryptocurrencies' ><Btn text='Get Started' /></NavLink>
                 
             </div>
             <div className="home__header-container">
