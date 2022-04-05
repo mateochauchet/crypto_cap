@@ -1,5 +1,6 @@
 import React from 'react';
-import './exchangeRow.css'
+import './exchangeRow.css';
+import Numeral from 'react-numeral';
 
 const ExRow = ({ex={}}) => {
     return (
@@ -11,8 +12,8 @@ const ExRow = ({ex={}}) => {
             </td>
             <td>{ex.trust_score}</td>
             <td>{ex.trade_volume_24h_btc}</td>
-            <td>{ex.name}</td>
-            <td>{ex.name}</td>
+            <td> <Numeral value={ex.trade_volume_24h_btc} format='0' /> </td>
+            <td><Numeral value={ex.trade_volume_24h_btc} format='0,00' /></td>
         </tr>
     )
 }

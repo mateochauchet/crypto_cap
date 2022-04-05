@@ -52,3 +52,9 @@
     margin-left: 1rem;
     padding: 3px;
 }
+
+@media screen and (max-width: 900px){
+    .exchanges__exchangesList{
+        padding: 6rem 0.2rem;
+    }
+}

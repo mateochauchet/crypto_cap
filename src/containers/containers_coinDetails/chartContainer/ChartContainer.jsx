@@ -57,7 +57,6 @@ const ChartContainer = () => {
 
     return (
         <div className='coinDetails__chartContainer'>
-            Chart Anashee!!!!
             <Line data={chartData} options={options} />
         </div>
     )

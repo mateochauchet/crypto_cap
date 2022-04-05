@@ -78,7 +78,9 @@ const CoinHeader = () => {
                     <CoinInfo data={{contract:data.contract,links:data.links,platforms:data.platforms,name:data.name}} />    
                 </div>
 
-                <Convertor price={data.market_data.price} img={data.img} name={data.name} symbol={data.symbol} />
+                <div className="coinDetails__header-convertor">
+                    <Convertor price={data.market_data.price} img={data.img} name={data.name} symbol={data.symbol} />
+                </div>
 
             </div>
         }

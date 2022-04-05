@@ -15,3 +15,35 @@
     justify-content: center;
     align-items: flex-start;
 }
+
+@media screen and (max-width: 800px){
+    .news__newsContainer{
+        padding: 2rem 2rem;
+    }
+
+    .news__newsContainer h1{
+        font-size: 35px;
+    
+        padding: 3rem 5rem;
+    }
+
+    .news__newsContainer-container{
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .news__newsContainer{
+        padding: 1.5rem 0rem;
+    }
+
+    .news__newsContainer-container{
+        padding: 1rem 0;
+    }
+
+    .news__newsContainer h1{
+        font-size: 28px;
+    
+        padding: 2rem 3rem;
+    }
+}
